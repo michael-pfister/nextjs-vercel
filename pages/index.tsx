@@ -5,7 +5,7 @@ const Home: NextPage = () => {
     <>
       <main className='w-screen h-screen flex justify-center items-center'>
         <h1 className="text-2xl">
-          Welcome <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
     </>
