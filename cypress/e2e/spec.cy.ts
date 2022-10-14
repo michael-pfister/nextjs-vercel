@@ -1,6 +1,6 @@
 // @ts-ignore
 
-describe('My First Test', () => {
+describe('Check Default', () => {
   it('Visits Localhost', () => {
     cy.visit('localhost:3000');
 
