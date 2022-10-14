@@ -1,7 +1,7 @@
 # .github/workflows/e2e.yml
 
 name: End-to-End Tests
-on: [pull_request]
+on: [push] # change this to [pull_request] if necessary
 jobs:
   cypress-run:
     name: Cypress run
