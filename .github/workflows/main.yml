@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout
       - name: Cypress run
-        uses: cypress-io/github-action@v4
+        uses: cypress-io/github-action
         with:
           browser: chrome
           build: yarn build
