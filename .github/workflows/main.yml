@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
       - name: Cypress run
-        uses: cypress-io/github-action@main
+        uses: cypress-io/github-action@latest
         with:
           browser: chrome
           build: yarn build
